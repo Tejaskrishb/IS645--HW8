@@ -1,0 +1,21 @@
+* {
+    font-family: "Calibri";
+}
+
+table {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid blue;
+    background-color: lightgray;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td {
+    border: 1px solid blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}

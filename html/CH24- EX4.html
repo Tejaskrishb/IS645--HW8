@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Tejaskrishb's Ch 23 Ex3</title>
+</head>
+<body>
+    
+    <h1><a href="../index.html">Link to Start Page</a></h1>
+    <h2>Tejaskrishb's Ch 23 Ex3</h2>
+
+    <h2>Sample Form</h2>
+    <form id="sample-form" enctype="multipart/form-data" onSubmit="return false;">
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value=""><br><br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" value=""><br><br>
+
+        <label for="payment">Payment Type:</label><br>
+        
+        <input type="radio" id="payment-cash" name="payment" value="payment-cash">
+        <label for="payment-cash">Cash</label><br>
+
+        <input type="radio" id="payment-credit" name="payment" value="payment-credit">
+        <label for="payment-credit">Credit Card</label><br>
+
+        <input type="radio" id="payment-google" name="payment" value="payment-google">
+        <label for="payment-google">Google Pay</label><br>
+
+        <input type="radio" id="payment-apple" name="payment" value="payment-apple">
+        <label for="payment-apple">Apple Pay</label><br><br>
+
+        <input type="checkbox" id="promotion" name="promotion" value="on">
+        <label for="promotion">Sign me up for special promotions</label><br><br>
+
+        <label for="location">Prefered locations:</label>
+        <select name="location" id="location">
+            <option value="location-losangeles" selected>Los Angeles</option>
+            <option value="location-sanfrancisco">sanfrancisco</option>
+            <option value="location-sanJose">sanJose</option>
+            <option value="location-sandiego">San Diego</option>
+        </select><br><br>
+
+        <button id="submit-button" type="submit">Submit</button>
+        <button id="cancel-button" type="cancel">Cancel</button>
+    </form>
+    
+    <div id="output"></div>
+    
+    <script src="../js/chap23ex3.js"></script>
+</body>
+</html>
